@@ -1,5 +1,6 @@
 ---
 layout: paper
+category: papers
 title: "Assessing Behavioral Alignment of Personality-Driven Generative Agents in Social Dilemma Games"
 authors: "Ritwik Bose, Mattson Ogg, Michael Wolmetz, Christopher Ratto"
 date: "2024-12-10"

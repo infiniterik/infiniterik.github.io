@@ -29,6 +29,11 @@ exclude:
   - LICENSE
   - README.md
 
+collections:
+  papers:
+    output: true
+    permalink: /:collection/:categories:output_ext
+
 plugins:
   - jekyll-feed
   - jekyll-gist
