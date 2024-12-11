@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article>	
+<main>
+        <h1>{{ page.title }}</h1>
+        <p><strong>Authors:</strong> {{ page.authors }}</p>
+        <p><strong>Publication Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p>{{ page.abstract }}</p>
+        </section>
+
+        <section id="content">
+					{{content}}
+            <p>link to paper: <a href="{{ page.paper_url }}" target="_blank">here</a>.</p>
+        </section>
+
+        <section id="bibtex">
+            <h2>BibTeX</h2>
+            <pre>
+{{ page.bibtex }}
+            </pre>
+        </section>
+</main>
+{% include footer.html %}
+<article>	
